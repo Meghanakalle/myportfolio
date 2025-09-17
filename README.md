@@ -10,9 +10,11 @@ Project 1. Secured Data Hiding in Images Using Steganography Technologies ðŸ–¼ï¸
     - Used OpenStego and OpenCV for steganography.SafeInbox AI (in progress) : AI-powered phishing email detection protecting inboxes with real-time intelligence.
     - Detects phishing via keyword scanning, domain validation, link checks, ML classification.
     - Flask-based secure dashboard for safer digital communication.
+
 project 2.SafeInbox AI (in progress) : AI-powered phishing email detection protecting inboxes with real-time intelligence.
     - Detects phishing via keyword scanning, domain validation, link checks, ML classification.
     - Flask-based secure dashboard for safer digital communication.
+
 Technical Skills- Languages: Python, Java, Dart, SQL, HTML, CSS
 - Frameworks: Flutter, Angular
 - Tools: OpenCV, OpenStego, Wireshark
