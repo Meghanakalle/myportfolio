@@ -29,5 +29,7 @@ Technical Skills- Languages: Python, Java, Dart, SQL, HTML, CSS
 Interests- Full-stack development
 - Cybersecurity
 - Scalable & secure app development
+
 Live link of the portfolio
+
 - file:///B:/portfolio/myportfolio.html
