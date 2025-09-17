@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meghana Kalle - Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    .navbar-brand img {
+      height: 60px;
+    }
+    .nav-link {
+      font-weight: bold;
+    }
+    .bg-container-home {
+      background-image: url("https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg");
+      background-size: cover;
+      color: white;
+      padding: 100px 20px;
+    }
+    .bg-container-about-me,
+    .bg-container-skills,
+    .bg-container-projects {
+      background-size: cover;
+      background-position: center;
+      padding: 60px 20px;
+    }
+    .bg-container-about-me {
+      background-image: url("https://wallup.net/wp-content/uploads/2017/11/10/333568-simple-dark-simple_background-texture-black_background.jpg");
+      color: white;
+    }
+    .bg-container-skills {
+      background-image: url("https://static.vecteezy.com/system/resources/previews/000/518/751/original/vector-black-triangular-abstract-texture-low-light-background.jpg");
+      color: white;
+    }
+    .bg-container-projects {
+      background-image: url("https://wallpapercave.com/wp/wp7453677.jpg");
+      color: white;
+    }
+    .developer-photo {
+      width: 100%;
+      max-width: 400px;
+    }
+    .projects-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .card {
+      border-radius: 10px;
+      height: 100%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f8f9fa;
+      margin-top: 40px;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="https://img.freepik.com/premium-vector/portfolio-word-with-pencil-instead-letter-i-art-design-gallery-concept-vector-conceptual-creative-logo-poster-made-with-special-font_570429-20468.jpg?w=2000" alt="Portfolio Logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#homeSection">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#aboutSection">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skillSection">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projectSection">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <div id="homeSection" class="bg-container-home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <h1>Hello, I am</h1>
+          <h2><strong>Meghana Kalle</strong></h2>
+          <p>
+            Aspiring Software Developer skilled in Flutter, Dart, Java, Python, SQL, HTML, and CSS, 
+            with a strong foundation in cybersecurity. Passionate about building smart full-stack solutions 
+            and securing systems by identifying vulnerabilities and strengthening digital defenses.
+          </p>
+        </div>
+        <div class="col-md-5 text-center">
+          <!-- 👇 Add your home page photo here -->
+          <img class="developer-photo" src="pic2.png" alt="Home Photo" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Me -->
+  <div id="aboutSection" class="bg-container-about-me">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-5 text-center mb-4">
+          <!-- 👇 Add your about page photo here -->
+        <img class="developer-photo" src="./image.jpeg" alt="About Me Image" />
+
+        </div>
+        <div class="col-md-7">
+          <h2>About Me</h2>
+          <p>
+            I am an aspiring Software Developer and Computer Science student with strong skills in Flutter, Dart, Java, 
+            HTML, CSS, Python, and SQL, passionate about building full-stack solutions and smart applications 
+            that solve real-world problems. Alongside development, I bring a strong foundation in cybersecurity, 
+            with hands-on experience in Python and tools like Wireshark for identifying vulnerabilities and 
+            strengthening digital defenses. Whether it’s designing scalable applications, optimizing system 
+            performance, or securing networks and applications, I enjoy tackling complex challenges and 
+            transforming them into efficient, innovative solutions. My goal is to combine development expertise 
+            with security knowledge to create technology that is not only powerful but also resilient and reliable.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div id="skillSection" class="bg-container-skills text-center">
+    <div class="container">
+      <h2 style="margin-bottom: 40px;">Skills</h2>
+      <div class="row justify-content-center">
+        <div class="col-6 col-md-2 mb-3">
+          <img class="img-fluid" src="https://gss-technology.com/wp-content/uploads/2021/07/04.png" alt="Python" />
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <img class="img-fluid" src="https://static.vecteezy.com/system/resources/previews/001/416/705/original/html5-emblem-orange-shield-and-white-text-vector.jpg" alt="HTML" />
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <!-- 👇 Add your CSS logo here -->
+         <!-- 👇 Add your CSS logo here -->
+         <img class="img-fluid" src="css.png" alt="CSS" />
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <img class="img-fluid" src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="Java" />
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <img class="img-fluid" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_flutter_icon_130599.png" alt="Flutter" />
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <img class="img-fluid" src="https://angular.io/assets/images/logos/angular/angular.png" alt="Angular" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects -->
+  <div id="projectSection" class="bg-container-projects">
+    <div class="container">
+      <h2 class="text-center mb-5">Projects</h2>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-6 mb-4">
+          <div class="card p-3 h-100">
+            <img class="projects-img" src="https://miro.medium.com/max/1400/1*FCjPRqUE8AhYsqWgispfMg.jpeg" alt="Cybersecurity Project Image" />
+            <div class="mt-3">
+              <h4 class="text-center">
+                <a href="https://github.com/Meghanakalle/AICTE" target="_blank">Cybersecurity Project</a>
+              </h4>
+              <p class="mt-2 text-dark" style="line-height: 1.5;font-weight:bold;">
+                <strong>Title:</strong> Secured Data Hiding in Images Using Steganography<br>
+                <strong>Technologies:</strong> Python, OpenStego, OpenCV<br>
+                <strong>Description:</strong> This project allows secure communication by hiding sensitive data inside images 
+                using steganography. It helps protect confidential information using image-based techniques.
+              </p>
+            </div>
+          </div>
+        </div>
+
+<!-- Project 2 -->
+<div class="col-md-6 mb-4">
+  <div class="card p-3 h-100 text-center">
+    <!-- 👇 Placeholder for SafeInbox AI logo -->
+    <img class="projects-img" src="pic.png" alt="SafeInbox AI Logo Placeholder" style="margin-bottom:8px;" />
+    <div class="mt-2"> <!-- reduced margin here -->
+      <h4 style="color:rgb(47, 151, 248); font-weight:bold; margin-bottom:6px;">SafeInbox AI (In Progress)</h4>
+      <p class="mt-2 text-dark" style="line-height:1.5; margin-top:4px;font-weight:bold;">
+        <strong>Description:</strong> Protect your inbox with intelligence! SafeInbox AI detects and flags phishing emails 
+        in real time, ensuring safer and more trustworthy digital communication.<br><br>
+        <ul class="text-dark pl-3" style="margin-top:1px; margin-bottom:1;font-weight:bold;">
+          <li>SafeInbox AI, an AI-powered phishing email detection app, turns a cluttered inbox into a safer, smarter hub.</li>
+          <li>Users paste email text or upload <code>.eml</code> files, and the app scans for phishing keywords, validates domains and links.</li>
+          <li>Runs a machine-learning classifier to flag suspicious messages in real time — all in a clean, secure Flask-based dashboard.</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div id="contact" class="text-center p-5">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:kallemeghanaraj@gmail.com">kallemeghanaraj@gmail.com</a></p>
+    <p>Phone: +91 8328412913</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/meghana-kalle-1246782b9" target="_blank">linkedin-profile</a></p>
+    <p>GitHub: <a href="https://github.com/Meghanakalle" target="_blank">github.com/Meghanakalle</a></p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Meghana Kalle. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
